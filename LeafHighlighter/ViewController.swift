@@ -9,19 +9,32 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
+  
+  @IBOutlet weak var moreButton: NSButton!
+  
+  @IBAction func openSafari(_ sender: Any) {
+    print("Open Safari")
+    let url = URL(string: "https://github.com/vapor/leaf")
+    guard let leafUrl = url else { return }
+    let bundleIdentifier = "com.apple.safari"
+    NSWorkspace.shared.open([leafUrl],
+                            withAppBundleIdentifier: bundleIdentifier,
+                            options: .default,
+                            additionalEventParamDescriptor: nil,
+                            launchIdentifiers: nil)
+  
+  }
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-
-    // Do any additional setup after loading the view.
   }
-
+  
   override var representedObject: Any? {
     didSet {
-    // Update the view, if already loaded.
+      // Update the view, if already loaded.
     }
   }
-
-
+  
+  
 }
 
