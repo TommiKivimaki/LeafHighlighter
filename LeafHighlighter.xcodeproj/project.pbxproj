@@ -11,7 +11,6 @@
 		646A5BE521AEB39D0019A43E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646A5BE421AEB39D0019A43E /* ViewController.swift */; };
 		646A5BE721AEB3A00019A43E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646A5BE621AEB3A00019A43E /* Assets.xcassets */; };
 		646A5BEA21AEB3A00019A43E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646A5BE821AEB3A00019A43E /* Main.storyboard */; };
-		646A5BF321AEB4880019A43E /* leaf.png in Resources */ = {isa = PBXBuildFile; fileRef = 646A5BF221AEB4880019A43E /* leaf.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		646A5BE921AEB3A00019A43E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		646A5BEB21AEB3A00019A43E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		646A5BEC21AEB3A00019A43E /* LeafHighlighter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeafHighlighter.entitlements; sourceTree = "<group>"; };
-		646A5BF221AEB4880019A43E /* leaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaf.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +37,6 @@
 		646A5BD621AEB39D0019A43E = {
 			isa = PBXGroup;
 			children = (
-				646A5BF221AEB4880019A43E /* leaf.png */,
 				646A5BE121AEB39D0019A43E /* LeafHighlighter */,
 				646A5BE021AEB39D0019A43E /* Products */,
 			);
@@ -126,7 +123,6 @@
 			files = (
 				646A5BE721AEB3A00019A43E /* Assets.xcassets in Resources */,
 				646A5BEA21AEB3A00019A43E /* Main.storyboard in Resources */,
-				646A5BF321AEB4880019A43E /* leaf.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
